@@ -38,16 +38,19 @@ Core Features
       - 
 Acceptance Criteria
 1. Form Validation:
-Users must provide all required details before submission.
-The email should be in a valid format.
-Avatar uploads should be handled via Cloudinary or any external image URL submission.
-Display relevant error messages near the respective fields.
-State Persistence
-The form fields should persist user input using IndexedDB or local storage, ensuring data remains intact even if the page is refreshed.
-Ticket Generation:
-The generated ticket should display the user’s full name, email, and avatar.
-The ticket should only appear when all form validations pass successfully.
-Accessibility:
+    - Users must provide all required details before submission.
+    - The email should be in a valid format.
+    - Avatar uploads should be handled via Cloudinary or any external image URL submission.
+    - Display relevant error messages near the respective fields.
+      
+2. State Persistence
+    - The form fields should persist user input using IndexedDB or local storage, ensuring data remains intact even if the page is refreshed.
+      
+3. Ticket Generation:
+    - The generated ticket should display the user’s full name, email, and avatar.
+    - The ticket should only appear when all form validations pass successfully.
+      
+4. Accessibility:
 All form elements and error messages must be fully accessible and announced by screen readers.
 The application must support complete keyboard navigation.
 Responsive Design:
