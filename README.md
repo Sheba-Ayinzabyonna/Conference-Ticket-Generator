@@ -51,12 +51,14 @@ Acceptance Criteria
     - The ticket should only appear when all form validations pass successfully.
       
 4. Accessibility:
-All form elements and error messages must be fully accessible and announced by screen readers.
-The application must support complete keyboard navigation.
-Responsive Design:
-The form and generated ticket must be fully responsive and visually optimized for all device sizes.
-Ensure the ticket is clearly visible immediately after submission on both mobile and desktop screens.
-Code Quality:
-Write modular, well-structured, and readable code.
-Utilize appropriate React hooks (e.g., useState, useEffect) for state management and validation.
-Implement proper form element types and validation techniques.
+    - All form elements and error messages must be fully accessible and announced by screen readers.
+    - The application must support complete keyboard navigation.
+      
+5. Responsive Design:
+    - The form and generated ticket must be fully responsive and visually optimized for all device sizes.
+    - Ensure the ticket is clearly visible immediately after submission on both mobile and desktop screens.
+      
+6. Code Quality:
+    - Write modular, well-structured, and readable code.
+    - Utilize appropriate React hooks (e.g., useState, useEffect) for state management and validation.
+    - Implement proper form element types and validation techniques.
